@@ -1,6 +1,5 @@
 html, body {
   font-family: "Roboto", sans-serif;
-  background-color: #5D2A42;
 }
 
 nav {
@@ -9,13 +8,25 @@ nav {
 nav ul li {
   display: inline-block;
   padding: 1rem;
+  font-size: 1.3em;
 }
 nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  color: #FFF9EC;
+  color: #5D2A42;
 }
 nav ul li a:hover {
   border-bottom: 2px solid #FCB1A6;
+}
+
+.banner {
+  background: url(../../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  color: #FFF9EC;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
 }/*# sourceMappingURL=style.css.map */

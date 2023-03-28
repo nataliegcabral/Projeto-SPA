@@ -9,12 +9,13 @@ nav {
         li {
             display: inline-block;
             padding: 1rem;
+            font-size: 1.3em;
 
             a {
                 text-decoration: none;
                 text-transform: uppercase;
                 font-weight: bold;
-                color: $cor-secundaria;
+                color: $cor-primaria;
 
                 &:hover {
                     border-bottom: 2px solid $cor-terciaria;
