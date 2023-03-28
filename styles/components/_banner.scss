@@ -4,9 +4,25 @@
     background: url(../../imagens/banner.jpeg) 27% center no-repeat;
     min-height: 350px;
     background-size: cover;
-    color: $cor-secundaria;
+    color: $cor2;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0.9;
+
+    .inner-banner {
+        padding: 4rem;
+        background-color: $cor3;
+        opacity: 0.9;
+        border-radius: 20px;
+
+        h1 {
+            font-size: $tamanho-do-texto;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: $tamanho-do-texto / 2 ;
+        }
+    }
 }
