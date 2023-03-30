@@ -1,0 +1,15 @@
+
+@mixin bg-cores($cores...)
+    background: linear-gradient(to left, $cores)
+
+footer
+    text-align: center
+    font-size: calc($tamanho-do-texto / 2)
+    margin-top: 1.5rem
+    padding: 1.1rem
+    color: $cor5
+    @include bg-cores($cor1, $cor2, $cor4)
+
+    i
+        color: #ff515f
+

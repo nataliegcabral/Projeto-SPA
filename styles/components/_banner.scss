@@ -4,7 +4,7 @@
     background: url(../../imagens/banner.jpeg) 27% center no-repeat;
     min-height: 350px;
     background-size: cover;
-    color: $cor2;
+    color: $cor5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
 
     .inner-banner {
         padding: 4rem;
-        background-color: $cor3;
+        background-color: $cor2;
         opacity: 0.9;
         border-radius: 20px;
 
@@ -22,7 +22,7 @@
         }
 
         h2 {
-            font-size: $tamanho-do-texto / 2 ;
+            font-size: calc($tamanho-do-texto / 2) ;
         }
     }
 }

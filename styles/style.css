@@ -14,17 +14,17 @@ nav ul li a {
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  color: #5D2A42;
+  color: #B08BBB;
 }
 nav ul li a:hover {
-  border-bottom: 2px solid #FCB1A6;
+  border-bottom: 2px solid #B5D5C5;
 }
 
 .banner {
   background: url(../../imagens/banner.jpeg) 27% center no-repeat;
   min-height: 350px;
   background-size: cover;
-  color: #FFF9EC;
+  color: #fffcfb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +32,7 @@ nav ul li a:hover {
 }
 .banner .inner-banner {
   padding: 4rem;
-  background-color: #FCB1A6;
+  background-color: #B5D5C5;
   opacity: 0.9;
   border-radius: 20px;
 }
@@ -42,4 +42,109 @@ nav ul li a:hover {
 }
 .banner .inner-banner h2 {
   font-size: 1.5rem;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.2rem;
+  color: #f1947f;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  text-align: center;
+  font-size: 2.3076923077rem;
+  margin-bottom: 80px;
+  font-weight: 300;
+  color: #B08BBB;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card .img-container {
+  border-bottom: 4px solid #B5D5C5;
+  padding-bottom: 2px;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 25px 0px 20px 0px;
+  color: #f1947f;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #B08BBB;
+  line-height: 1.25rem;
+}
+
+#cupom {
+  background-color: #B5D5C5;
+  padding: 4rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #fffcfb;
+}
+#cupom .texto h2 {
+  font-size: 1.5rem;
+  margin: 1.5rem;
+}
+#cupom input {
+  width: 575px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fffcfb;
+  height: 40px;
+  outline: none;
+  text-align: center;
+  font-size: 26px;
+  color: #6c8377;
+}
+#cupom input:hover, #cupom input:focus {
+  box-shadow: 1px 1px 8px 1px #6c8377;
+}
+#cupom button {
+  text-transform: uppercase;
+  margin-top: 0.75rem;
+  outline: none;
+  border: none;
+  height: 40px;
+  width: 130px;
+  background-color: #f1947f;
+  color: #fffcfb;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+#cupom button:hover {
+  background-color: #fffcfb;
+  color: #f1947f;
+}
+
+footer {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 1.1rem;
+  color: #fffcfb;
+  background: linear-gradient(to left, #B08BBB, #B5D5C5, #f1947f);
+}
+footer i {
+  color: #ff515f;
 }/*# sourceMappingURL=style.css.map */
